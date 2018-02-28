@@ -1,0 +1,81 @@
+body{
+  margin: auto;
+  position: relative;
+
+}
+
+nav{
+
+}
+
+
+#home{
+  position: relative;
+  background-color: orange;
+  background-image: url(../img/h.jpg);
+  background-repeat: 	no-repeat;
+  background-size: 100% 100%;
+
+  width: 100%;
+  color: orange;
+  text-shadow: 2px 2px blue;
+  padding: 21%;
+}
+
+
+#about{
+  position: relative;
+  background-color: yellow;
+  background-image: url(../img/storm.jpg);
+  background-repeat: 	no-repeat;
+  width: 100%
+  color: red;
+  padding: 13%;
+}
+
+#skills{
+  position: relative;
+  background-color: green;
+  background-image: url(../img/skills.jpg);
+  background-size: 100% 100%;
+  background-repeat: 	no-repeat;
+  width: 100%;
+  color: #417de9;
+  padding: 10%;
+}
+
+#contact{
+  position: relative;
+  background-color: red;
+  background-image: url(../img/iron.png);
+  background-size: 100% 100%;
+  background-repeat: 	no-repeat;
+  width: 100%;
+  color: brown;
+  padding: 16%;
+}
+.slika{
+  -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.umijece{
+  font-size: 2em;
+  text-align: center;
+
+}
+.pozumijece{
+  font-size: 2em;
+text-align: center;
+
+}
+
+.rade:hover{
+
+  text-decoration: none;
+
+}
